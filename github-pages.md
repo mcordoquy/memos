@@ -2,7 +2,7 @@
 title: GitHub Pages
 ---
 
-# Configuration Github Pages
+# {{ page.title }}
 
 On peut utiliser le fichier _config.yml pour configurer le site :  
 theme: *le nom du thème à utiliser*  
