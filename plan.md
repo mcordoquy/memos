@@ -5,9 +5,11 @@ title: Plan
 
 <ul>
   {% for page in site.pages %}
+    {% if page.title %}
     <li>
       <a href="/memos{{ page.url }}">{{ page.title }}</a>
     </li>
+    {% endif %}
   {% endfor %}
   {% for fiche in site.fiches %}
     <li>
