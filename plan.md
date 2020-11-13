@@ -1,5 +1,5 @@
 ---
-title: Plan
+title: Plan du site
 ---
 # {{ page.title }}
 
