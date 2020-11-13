@@ -1,6 +1,9 @@
 ---
 title: Markdown
 ---
+# {{ page.title }}  
+___
+
 Pour aller à la ligne : terminer la ligne avec au moins 2 espaces  
 Pour mettre en italique : entourer le texte avec des \*   
 Pour mettre en gras : entourer le texte avec des \*\*  
