@@ -3,4 +3,10 @@ title: Plan
 ---
 # {{ page.title }}
 
-    {% include navigation.html %}
+<ul>
+  {% for fiche in site.fiches %}
+    <li>
+      <a href="{{ fiche.url }}">{{ fiche.title }}</a>
+    </li>
+  {% endfor %}
+</ul>

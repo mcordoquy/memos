@@ -2,3 +2,9 @@ theme: jekyll-theme-slate
 title: MC' memos
 description: petits pense-bête
 google_analytics: 182966798
+
+collections:
+  fiches:
+    output: true
+    sort_by: title
+    
